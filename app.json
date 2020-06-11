@@ -1,28 +1,29 @@
 {
   "expo": {
-    "name": "HastaLaLista",
-    "slug": "HastaLaLista",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Hasta La Lista",
+    "slug": "hastalalista",
+    "ios": {
+      "bundleIdentifier": "accedodigitalagency.hastalalista",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "accedodigitalagency.hastalalista",
+      "versionCode": 1
+    },
+    "platforms": ["ios", "android", "web"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./app/assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./app/assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    "assetBundlePatterns": ["**/*"],
+    "description": "Il gioco creato da Francesco Lancia e dai ragazzi di Tutti a Casa diventa un'app!\nDivertiti a giocare con i tuoi amici, la tua famiglia o con chiunque altro tu voglia.."
   }
 }
